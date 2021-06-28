@@ -1,8 +1,8 @@
-package AlgorithmHash;
-
+package Progrmmers.AlgorithmHash;
 import java.util.*;
-class Solution {
-    public String solution(String[] participant, String[] completion) {
+
+public class Solution {
+    public String player(String[] participant, String[] completion) {
         Arrays.sort(participant);
         Arrays.sort(completion);
         int i;
